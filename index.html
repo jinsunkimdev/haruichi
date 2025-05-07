@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haruichi</title>
+    <link rel="stylesheet" href="/src/styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="img-wrapper">
+            <img src="/src/assets/Saly-11.png" alt="Character" />
+        </div>
+        <h1>What's up, Jinsun!</h1>
+    </header>
+
+    <main>
+        <div class="todo-container">
+            <div class="input-wrapper" id="inputWrapper" style="display: none;">
+                <input type="text" id="todoInput" placeholder="할 일을 입력하세요" />
+                <button id="submitTodo">확인</button>
+            </div>
+            <div class="todo-item">
+                <input type="checkbox" id="todo1">
+                <label for="todo1">Buy movie tickets for Friday</label>
+            </div>
+            <div class="todo-item">
+                <input type="checkbox" id="todo2">
+                <label for="todo2">Make a React Native tutorial</label>
+            </div>
+        </div>
+        <button class="add-button">
+            <i class="fas fa-plus"></i>
+        </button>
+    </main>
+    <script src="/src/scripts/index.js" type="module"></script>
+</body>
+
+</html>
